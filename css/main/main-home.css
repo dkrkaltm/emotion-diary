@@ -1,0 +1,41 @@
+
+.main-Home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    font-family: 'Caveat', cursive;
+    border: solid 2px white;
+    margin: 200px 0 200px 0;
+}
+.main-Home h1{
+    line-height: 1.7;
+    flex:0;
+    font-size: 6rem;
+    animation: fadeOut 1s linear;
+}
+.main-Home p{
+    font-size:2rem;
+    line-height: 1.7;
+    animation: fadeOutP 3s linear;
+    opacity: 0.7;
+}
+
+
+@keyframes fadeOut{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes fadeOutP{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:0.7
+    }
+}

@@ -1,83 +1,8 @@
-@import "main-section-one.css";
+@import "main-header.css";
+@import "main-home.css";
+@import "main-rule.css";
 
-.main-header{
-   display: flex;
-   /* position: fixed; */
-   width:95%;
-   margin:50px;
-   justify-content: space-between;
-}
-.main-header nav{
+main h1{
     font-family: 'Caveat', cursive;
-    display: flex;
-    align-items: center;
-    /* width:30%; */
-    flex:3;
-    justify-content: space-around;
-    font-size:1.3rem;
+    font-size: 4rem;
 }
-.main-header nav a{
-    transition: 0.7s;
-}
-.main-header nav a:hover{
-    color:#03c8a8;
-}
-#main-header-lastA{
-    width:13%;
-    background: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
-    border-radius: 5px;
-    position: relative;
-}
-
-/* 써보기 강조 */
-#main-header-lastA:hover{
-    background:transparent;
-}
-#main-header-lastA span{
-    line-height: 1.7;
-    text-align: center;
-    position: relative;
-    display: block;
-    /* width: 100%;
-    height: 100%; */
-    flex:1;
-    
-}
-#main-header-lastA:before,
-#main-header-lastA:after{
-    content:"";
-    position:absolute;
-    top:0;
-    right: 0;
-    background-color:#03c8a8;
-    transition: all 0.4s ease;
-}
-
-#main-header-lastA span:before,
-#main-header-lastA span:after{
-    content:"";
-    position:absolute;
-    bottom: 0;
-    left: 0;
-    background-color:#03c8a8;
-    transition: all 0.4s ease;
-}
-
-#main-header-lastA span:before,#main-header-lastA:before{
-    width:2px;
-    height: 0;
-}
-#main-header-lastA span:after,#main-header-lastA:after{
-    width:0;
-    height: 2px;
-}
-
-
-#main-header-lastA span:hover:before,#main-header-lastA:hover:before{
-    height: 100%;
-}
-#main-header-lastA span:hover:after, #main-header-lastA:hover:after{
-    width: 100%;
-}
-
-

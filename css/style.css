@@ -3,10 +3,19 @@
 @import "main/main.css";
 
 
+
 body{
     background-color: #000;
     color:#fff;
     overflow-x:hidden;
     width: 100%;
     height: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.hidden{
+    display: none;
 }

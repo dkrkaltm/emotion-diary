@@ -1,0 +1,19 @@
+.main-rule{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+.main-rule dl{
+    width:40%;
+    border: solid 2px white;
+}
+.main-rule div{
+    display: flex;
+    justify-content: space-around;
+
+    margin:100px 0;
+    font-size: 2rem;
+}
