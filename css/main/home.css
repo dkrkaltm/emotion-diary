@@ -1,5 +1,5 @@
 
-.main-Home{
+.main-home{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,13 +9,13 @@
     border: solid 2px white;
     margin: 200px 0 200px 0;
 }
-.main-Home h1{
+.main-home h1{
     line-height: 1.7;
     flex:0;
     font-size: 6rem;
     animation: fadeOut 1s linear;
 }
-.main-Home p{
+.main-home p{
     font-size:2rem;
     line-height: 1.7;
     animation: fadeOutP 3s linear;

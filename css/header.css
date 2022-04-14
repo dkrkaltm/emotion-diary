@@ -1,4 +1,5 @@
-.main-header{
+
+.header{
     display: flex;
     position: fixed;
     top:0;
@@ -6,9 +7,8 @@
     margin:50px;
     justify-content: space-between;
     font-family: 'Caveat', cursive;
- 
  }
- .main-header nav{
+ .header nav{
      display: flex;
      align-items: center;
      /* width:30%; */
@@ -16,18 +16,18 @@
      justify-content: space-around;
      font-size:1.3rem;
  }
- .main-header  h1{
+ .header  h1{
      font-size: 2.6rem;
      flex:3;
  }
- .main-header nav a{
+ .header nav a{
      transition: 0.7s;
  }
- .main-header nav a:hover{
+ .header nav a:hover{
      color:#03c8a8;
      transform: scale(1.3);
  }
- #main-header-lastA{
+ #header-lastA{
      width:15%;
      background: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
      border-radius: 5px;
@@ -35,10 +35,10 @@
  }
  
  /* 써보기 강조 */
- #main-header-lastA:hover{
+ #header-lastA:hover{
      background:transparent;
  }
- #main-header-lastA span{
+ #header-lastA span{
      line-height: 1.7;
      text-align: center;
      position: relative;
@@ -46,42 +46,41 @@
      /* width: 100%;
      height: 100%; */
      flex:1;
-     
  }
- #main-header-lastA:before,
- #main-header-lastA:after{
+ #header-lastA:before,
+ #header-lastA:after{
      content:"";
      position:absolute;
      top:0;
      right: 0;
      background-color:#03c8a8;
-     transition: all 0.4s ease;
+     transition: all 0.8s ease;
  }
  
- #main-header-lastA span:before,
- #main-header-lastA span:after{
+ #header-lastA span:before,
+ #header-lastA span:after{
      content:"";
      position:absolute;
      bottom: 0;
      left: 0;
      background-color:#03c8a8;
-     transition: all 0.4s ease;
+     transition: all 0.8s ease;
  }
  
- #main-header-lastA span:before,#main-header-lastA:before{
+ #header-lastA span:before,#header-lastA:before{
      width:2px;
      height: 0;
  }
- #main-header-lastA span:after,#main-header-lastA:after{
+ #header-lastA span:after,#header-lastA:after{
      width:0;
      height: 2px;
  }
  
  
- #main-header-lastA span:hover:before,#main-header-lastA:hover:before{
+ #header-lastA span:hover:before,#header-lastA:hover:before{
      height: 100%;
  }
- #main-header-lastA span:hover:after, #main-header-lastA:hover:after{
+ #header-lastA span:hover:after, #header-lastA:hover:after{
      width: 100%;
  }
  

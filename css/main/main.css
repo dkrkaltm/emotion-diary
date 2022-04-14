@@ -1,8 +1,12 @@
-@import "main-header.css";
-@import "main-home.css";
-@import "main-rule.css";
+
+@import "home.css";
+@import "main-List.css";
 
 main h1{
     font-family: 'Caveat', cursive;
     font-size: 4rem;
+    margin-bottom: 50px;
+}
+header nav a:first-child{
+    color:#03c8a8;
 }
