@@ -4,9 +4,11 @@
     position: fixed;
     top:0;
     width:95%;
-    margin:50px;
+    padding:25px;
     justify-content: space-between;
     font-family: 'Caveat', cursive;
+    z-index: 1;
+    background-color: #000;
  }
  .header nav{
      display: flex;

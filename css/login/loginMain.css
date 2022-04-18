@@ -1,0 +1,61 @@
+body{
+    overflow-y:hidden ;
+}
+
+header nav a:nth-child(3){
+    color:#03c8a8;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+   
+}
+main h1{
+    font-size: 6rem;
+    margin-bottom:55px;
+}
+.login{
+    width: 50%;
+    height: 50%;
+}
+.login a {
+    margin-right: 15px;
+}
+.login a:hover{
+    color:red;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+}
+.loginForm input, .loginForm button{
+    height: 50px;
+    margin: 15px 0;
+}
+.loginForm input{
+    border: none;
+    border-bottom: solid 2px white;
+    background-color: black;
+    caret-color: white;
+    color:white;
+    transition: 0.5s ease-in;
+}
+.loginForm input::placeholder{
+    color:white;
+}
+.loginForm input:focus{
+    border-bottom: solid 2px #03c8a8;
+}
+.loginForm button{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.loginForm button:hover{
+    background-color: #03c8a8;
+}

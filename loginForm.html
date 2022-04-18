@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login/loginMain.css">
+    <script src="css/login/js/login.js" defer></script>
+    <title>loginForm</title>
+</head>
+<body>
+    <header class="header">
+        <h1>EmotionDiary</h3>
+        <nav>
+            <h2 class="hidden">navigation</h2>
+            <a href="main.html">홈</a>
+            <a href="#">로그인/회원가입</a>
+            <a href="#">감정종류</a>
+            <a href="#">감정일기</a>
+            <a href="#">감정쓰레기통</a>
+            <a href="#">도움이필요해요</a>
+            <a id="header-lastA" href="#"><span>감정일기쓰기</span></a>
+        </nav>
+    </header>
+    <main>
+        <h1>EmotionDiary</h1>
+       <article class="login">
+           <form class="loginForm" action="#" method="post">
+               <input type="text" placeholder="아이디입력" required minlength="5" maxlength="10"/>
+               <input type="password" placeholder="비밀번호입력" required minlength="8" maxlength="15"/>
+               <button type="submit">등록</button>
+               <button type="button">취소</button>
+            </form>
+            <a id="join" href="#" >회원가입</a>
+            <a id="ID-PW-find"href="#"  >아이디/비밀번호찾기</a>
+       </article>
+    </main>
+</body>
+</html>

@@ -1,11 +1,11 @@
 .main-List{
-    font-size: 2rem;
+    font-size: 1.3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:150px 0;
-    background-color: red;
+    margin:40px 0;
+    
 }
 .main-List h1{
     text-align: center;
@@ -17,8 +17,16 @@
 #EG{
     width: 415px;
 }
+#NH{
+    width:500px;
+}
 .main-List a{
     align-self: flex-start;
+    margin-left: 100px;
+    transition: 0.5s ease-in-out;
+}
+.main-List a:hover{
+    color:red;
 }
 .main-List h1:before{
     content: "";
@@ -32,6 +40,7 @@
     height: 3px;
 
 }
+
 @keyframes a {
     from{
         width:0;
@@ -44,11 +53,12 @@
 .main-List-content{
     overflow: hidden;
     display: flex;
-    background-color: red;
     position: relative;
     flex-wrap:wrap;
- 
-    background-color: green;
+    margin:0 150px;
+   width: -webkit-calc(100% - 150px);
+    height: 500px;
+    cursor: pointer;
 }
 
 
@@ -56,11 +66,26 @@
     border: solid 2px white;
     margin:40px 15px;
     height: 450px;
-    width: 300px;
+    /* width: 250px; */ 
+    flex:1;
+    overflow: hidden;
+    font-size: 2rem;  
+
+}
+.main-List-content li:hover{
+    /* background-color: #03c8a8; */
+    box-shadow:5px 5px 5px 5px   rgba(255,255,255,0.4);
+}
+
+.main-List-content li p{
+    font-size:1.5rem;
+    word-spacing: 2px;
+    -webkit-line-clamp: 3; 
+
+
 }
 #content-tag{
     display: inline-block;
     background-color: #03c8a8;
     border:solid 1px white;
-    
 }

@@ -2,11 +2,7 @@
 @import "home.css";
 @import "main-List.css";
 
-main h1{
-    font-family: 'Caveat', cursive;
-    font-size: 4rem;
-    margin-bottom: 50px;
-}
-header nav a:first-child{
+
+header nav a:nth-child(2){
     color:#03c8a8;
 }
