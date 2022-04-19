@@ -131,3 +131,18 @@ a{
     color: #fff;
 
 }
+
+
+*{
+  box-sizing: border-box;
+}
+
+.hidden{
+  display: none;
+}
+
+h1{
+  font-family: 'Caveat', cursive;
+  font-size: 4rem;
+  margin-bottom: 50px;
+}

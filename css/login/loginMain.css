@@ -1,3 +1,6 @@
+@import "./join.css";
+
+
 body{
     overflow-y:hidden ;
 }
@@ -18,11 +21,11 @@ main{
 }
 main h1{
     font-size: 6rem;
-    margin-bottom:55px;
+    margin-bottom:74px;
 }
 .login{
-    width: 50%;
-    height: 50%;
+    width: 35%;
+    height: 35%;
 }
 .login a {
     margin-right: 15px;
@@ -34,28 +37,30 @@ main h1{
     display: flex;
     flex-direction: column;
 }
-.loginForm input, .loginForm button{
+input,button{
     height: 50px;
     margin: 15px 0;
+    color:white;
 }
-.loginForm input{
+input{
     border: none;
     border-bottom: solid 2px white;
     background-color: black;
     caret-color: white;
-    color:white;
     transition: 0.5s ease-in;
 }
-.loginForm input::placeholder{
+input::placeholder{
     color:white;
 }
-.loginForm input:focus{
+input:focus{
     border-bottom: solid 2px #03c8a8;
 }
-.loginForm button{
+button{
     font-weight: bold;
     font-size: 1.2rem;
+    background-color: black;
+    border: solid 2px white;
 }
-.loginForm button:hover{
+ button:hover{
     background-color: #03c8a8;
 }
