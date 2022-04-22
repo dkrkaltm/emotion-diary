@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/login/loginMain.css">
-    <script src="css/login/js/login.js" defer></script>
-    <title>loginForm</title>
+    <title>find</title>
 </head>
 <body>
     <header class="header">
@@ -23,18 +22,25 @@
             <a id="header-lastA" href="#"><span>감정일기쓰기</span></a>
         </nav>
     </header>
-    <main>
-        <h1>EmotionDiary</h1>
-       <article class="login">
-           <form class="loginForm" action="#" method="post">
-               <input type="text" placeholder="아이디입력" required minlength="5" maxlength="10"/>
-               <input type="password" placeholder="비밀번호입력" required minlength="8" maxlength="15"/>
-               <button type="submit">로그인</button>
-               <button type="button">취소</button>
-            </form>
-            <a id="join" href="#" >회원가입</a>
-            <a id="ID-PW-find"href="find.html"  >아이디/비밀번호찾기</a>
-       </article>
-    </main>
+    <section class="find">
+    <h1>아이디/비번찾기</h1>
+    <article class="findImf">
+        <form class='find-ID' action="" method="">
+            <!-- 아이디 찾기 -->
+            <label for="">아이디</label>
+            <input type="text" placeholder="이메일입력"/>
+            <button type="submit">아이디찾기</button>
+        </form>
+        <form class='find-PW'action="" method="">
+            <!-- 비번 찾기 -->
+            <label for="">아이디</label>
+            <input type="text" placeholder="아이디입력"/>
+            <label for="">이메일</label>
+            <input type="text" placeholder="이메일 입력"/>
+            <button type="submit">비번찾기</button>
+        </form>
+
+    </article>
+</section>
 </body>
 </html>

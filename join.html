@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,17 +14,17 @@
         <form class="joinForm" action="" method="">
             <!-- 아이디 중복, 비번, 비번확인, 이메일, 익명 수행, 본인인증 -->
              <label for="joinForm-id"></label>
-            <input id="joinForm-id" type="text" placeholder="아이디" />
+            <input id="joinForm-id" type="text" placeholder="아이디" required minlength="5" maxlength="10"/>
             <label for="joinForm-pw"></label>
-            <input id="joinForm-pw" type="password" placeholder="비밀번호"/>
+            <input id="joinForm-pw" type="password" placeholder="비밀번호"required minlength="8" maxlength="15"/>
             <label for="joinForm-pw-check"></label>
-            <input id="joinForm-pw-check" type="password" placeholder="비밀번호확인"/>
+            <input id="joinForm-pw-check" type="password" placeholder="비밀번호확인" required minlength="8" maxlength="15"/>
             <label for="joinForm-email"></label>
-            <input id="joinForm-email" type="email" placeholder="이메일"/>
+            <input id="joinForm-email" type="email" placeholder="이메일" required/>
             <label for="self-authentication" >*도움이필요해요 글이나 댓글을 남기기 위해서만 필요합니다</label>
             <button id="self-authentication" type="click">본인인증</button>
             <button type="submit" >등록</button>
-            <button type="click">닫기</button>
+            <button type="click" >닫기</button>
         </form>
     </article>
 </body>

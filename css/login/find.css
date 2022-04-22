@@ -1,0 +1,31 @@
+
+.find{
+    margin-top:150px;
+}
+.find h1{
+    width:30%;
+    margin:0 auto;
+}
+
+.findImf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top:150px;
+
+}
+.find form{
+    display: flex;
+    flex-direction: column;
+
+   
+}
+.find-ID{
+    flex:1;
+    margin-top:auto;
+}
+.find-PW{
+    flex:1;
+    
+}
